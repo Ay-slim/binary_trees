@@ -8,6 +8,7 @@
 size_t calc_size(const binary_tree_t *tree)
 {
 	unsigned int size = 0;
+
 	if (!tree)
 		return (0);
 
